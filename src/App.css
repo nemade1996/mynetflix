@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-frame {
+  padding: 1.25rem;
+}
+.container {
+  max-width: 1280px;
+}
+.introbg{
+  background-image: url(./images/intro-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bg-overlay{
+  background-color: #1111111a;
+}
+
+.max-w-500px{
+  max-width: 500px;
+}
+.trailer-overlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(358deg, #000000 0%, #0000006b 100%);
+  border-radius: 20px 0 0 0;
+  text-align: center;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #e50914 !important;
+    fill: #e50914 !important;
+    stroke: #e50914 !important;
+}
